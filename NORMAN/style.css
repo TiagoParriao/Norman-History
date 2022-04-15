@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+  }
+
+.cor-de-fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shape-cinza {
+    background-color: #EEEEEE;
+    width: 1290px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sub-titulo {
+    font-family: 'Roboto', sans-serif;
+    width: 400;
+}
+
+.sub-sub-titulo {
+    font-family: 'Roboto', sans-serif;
+    width: 100;
+}
+
+.shape-branco {
+    background-color: white;
+    width: 90%;
+    height: 700px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.foto {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafo {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 400;
+}
+
+.historia {
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-right: 350px;
+}
+
+.titulo-fim {
+    margin: 40px;
+}
+
+.final {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.rodape {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
